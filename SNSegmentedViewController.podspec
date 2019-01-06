@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SNSegmentedViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SNSegmentedViewController.'
-
+  s.summary          = 'Segment in view controller with header view '
+  s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Segment in view controller with header view for ios
                        DESC
 
   s.homepage         = 'https://github.com/ahmedAlmasri/SNSegmentedViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ahmedAlmasri' => 'a.masri@genie-soft.com' }
+  s.author           = { 'ahmedAlmasri' => 'ahmed.almasri@ymail.com' }
   s.source           = { :git => 'https://github.com/ahmedAlmasri/SNSegmentedViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

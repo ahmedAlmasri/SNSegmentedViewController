@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		136C34468E013EF845DA98D4 /* Pods-SNSegmentedViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSegmentedViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSegmentedViewController_Example/Pods-SNSegmentedViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2585573E9F1BD5CF4B8A8C19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3FCD62B61D310F4BD1A92CB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2585573E9F1BD5CF4B8A8C19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3FCD62B61D310F4BD1A92CB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		470F5A1541FCBA0B5C1E09CC /* Pods_SNSegmentedViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSegmentedViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SNSegmentedViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSegmentedViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* SNSegmentedViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSegmentedViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9A38BC4E2FE99D7CA7362C67 /* SNSegmentedViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SNSegmentedViewController.podspec; path = ../SNSegmentedViewController.podspec; sourceTree = "<group>"; };
+		9A38BC4E2FE99D7CA7362C67 /* SNSegmentedViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNSegmentedViewController.podspec; path = ../SNSegmentedViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7AC991FD38B1E24F48D7A65 /* Pods-SNSegmentedViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSegmentedViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSegmentedViewController_Tests/Pods-SNSegmentedViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC3517BAF877FAC4B8E7F06D /* Pods-SNSegmentedViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSegmentedViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSegmentedViewController_Example/Pods-SNSegmentedViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F2C146A07C1B0E4F71FD742C /* Pods_SNSegmentedViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSegmentedViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -427,6 +427,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -472,6 +473,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -487,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -502,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -523,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSegmentedViewController_Example.app/SNSegmentedViewController_Example";
 			};
 			name = Debug;
@@ -541,7 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSegmentedViewController_Example.app/SNSegmentedViewController_Example";
 			};
 			name = Release;
