@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SNSegmentedViewController_Example' do
+  pod 'SNSegmentedViewController', :path => '../'
+
+  target 'SNSegmentedViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
