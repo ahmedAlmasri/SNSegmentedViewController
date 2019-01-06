@@ -13,7 +13,7 @@
 		403382AE21E1E6290096F523 /* SNSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403382AD21E1E6290096F523 /* SNSegmentView.swift */; };
 		403382B021E1E7190096F523 /* SNShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403382AF21E1E7190096F523 /* SNShadow.swift */; };
 		403382B221E1E7720096F523 /* SNSegmentedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403382B121E1E7720096F523 /* SNSegmentedScrollView.swift */; };
-		403382B421E1E8440096F523 /* SNSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403382B321E1E8440096F523 /* SNSegmentedViewController.swift */; };
+		403382B621E1F0BF0096F523 /* SNSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403382B521E1F0BF0096F523 /* SNSegmentedViewController.swift */; };
 		5080EE8A2DF0D250C14B69027E686D6E /* SNSegmentedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059AAA7220325127254CE9077BAFF8F5 /* SNSegmentedViewController-dummy.m */; };
 		56DDB9DB73AF6EFC9B9ED3CCA0FA51E1 /* SNSegmentedViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B927AA9C0F3F0663904EE10168B6DFB6 /* SNSegmentedViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6728AC80B662280F9BAB8031AE2CCA5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -22,7 +22,6 @@
 		97A9E689306B5A8F7B5F981747193670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		9EDEED895A375702A32799A1AE682966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		C176ED565B1E3D89377415D552E5E225 /* Pods-SNSegmentedViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4972A10345C82243706F0097468D9D64 /* Pods-SNSegmentedViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6AF17C65614DD0103AB39C721BDB631 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF34ACE28C5441D69FF9CEF384265B /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,7 @@
 		403382AD21E1E6290096F523 /* SNSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SNSegmentView.swift; path = SNSegmentedViewController/Classes/SNSegmentView.swift; sourceTree = "<group>"; };
 		403382AF21E1E7190096F523 /* SNShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SNShadow.swift; path = SNSegmentedViewController/Classes/SNShadow.swift; sourceTree = "<group>"; };
 		403382B121E1E7720096F523 /* SNSegmentedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SNSegmentedScrollView.swift; path = SNSegmentedViewController/Classes/SNSegmentedScrollView.swift; sourceTree = "<group>"; };
-		403382B321E1E8440096F523 /* SNSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSegmentedViewController.swift; sourceTree = "<group>"; };
+		403382B521E1F0BF0096F523 /* SNSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SNSegmentedViewController.swift; path = SNSegmentedViewController/Classes/SNSegmentedViewController.swift; sourceTree = "<group>"; };
 		40DC4CF50F13C0A0B6A7F6884F2F4A5E /* Pods_SNSegmentedViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSegmentedViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4972A10345C82243706F0097468D9D64 /* Pods-SNSegmentedViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNSegmentedViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		49FB61DC696C556EB97964F217D6FFBB /* SNSegmentedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNSegmentedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +82,6 @@
 		ECF96D9EE206AF627625A3DAC3F8AE3A /* Pods-SNSegmentedViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNSegmentedViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F2B17916B0EE244A1C2B3F7D3B555B88 /* Pods-SNSegmentedViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNSegmentedViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F714647374E166021B2788A3C14CFA2A /* Pods-SNSegmentedViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNSegmentedViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		FFAF34ACE28C5441D69FF9CEF384265B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SNSegmentedViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +177,6 @@
 		8447555292E9C34E71B77F23CFBC9640 /* SNSegmentedViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FFAF34ACE28C5441D69FF9CEF384265B /* ReplaceMe.swift */,
 				578DE5BE5D728269742EE3166C95ECCB /* Pod */,
 				60E0AFA67776B917ED7D9C865FA0973E /* Support Files */,
 				403382A921E1E4E10096F523 /* SNSegmentTab.swift */,
@@ -187,7 +184,7 @@
 				403382AD21E1E6290096F523 /* SNSegmentView.swift */,
 				403382AF21E1E7190096F523 /* SNShadow.swift */,
 				403382B121E1E7720096F523 /* SNSegmentedScrollView.swift */,
-				403382B321E1E8440096F523 /* SNSegmentedViewController.swift */,
+				403382B521E1F0BF0096F523 /* SNSegmentedViewController.swift */,
 			);
 			name = SNSegmentedViewController;
 			path = ../..;
@@ -393,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6AF17C65614DD0103AB39C721BDB631 /* ReplaceMe.swift in Sources */,
 				5080EE8A2DF0D250C14B69027E686D6E /* SNSegmentedViewController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +407,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				403382AA21E1E4E10096F523 /* SNSegmentTab.swift in Sources */,
-				403382B421E1E8440096F523 /* SNSegmentedViewController.swift in Sources */,
 				403382AE21E1E6290096F523 /* SNSegmentView.swift in Sources */,
+				403382B621E1F0BF0096F523 /* SNSegmentedViewController.swift in Sources */,
 				74876E181E50D8272649AE4321C59142 /* Pods-SNSegmentedViewController_Example-dummy.m in Sources */,
 				403382B021E1E7190096F523 /* SNShadow.swift in Sources */,
 				403382AC21E1E5C70096F523 /* SNContentView.swift in Sources */,
