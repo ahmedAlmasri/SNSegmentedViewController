@@ -334,7 +334,7 @@ import UIKit
             }
         }
         
-        return topSpacing
+        return 0.0
     }
     
     /**
@@ -351,7 +351,7 @@ import UIKit
             }
         }
         
-        return bottomSpacing
+        return 0.0
     }
     /**
      * Update view as per the current layout
