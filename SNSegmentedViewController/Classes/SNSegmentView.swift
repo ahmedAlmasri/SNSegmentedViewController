@@ -361,7 +361,7 @@ class SNSegmentView: UIScrollView {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
     
-    func titleImage() -> UIImage? { return nil}
+   public func titleImage() -> UIImage? { return nil}
 }
