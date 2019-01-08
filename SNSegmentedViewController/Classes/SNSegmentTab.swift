@@ -41,10 +41,9 @@ open class SNSegmentTab: UIView {
         }
     }
     
-    convenience init(title: String, image: UIImage?) {
+    convenience init(title: String) {
         self.init(frame: CGRect.zero)
         setTitle(title)
-        setImage(image)
     }
     
     convenience init(view: UIView) {
@@ -87,12 +86,7 @@ open class SNSegmentTab: UIView {
     
     open func setTitle(_ title: String) {
         
-        button.setTitle("  "+title, for: .normal)
-    }
-    
-    open func setImage(_ image: UIImage?) {
-        
-        button.setImage(image, for: .normal)
+        button.setTitle(title, for: .normal)
     }
     
     open func titleColor(_ color: UIColor) {

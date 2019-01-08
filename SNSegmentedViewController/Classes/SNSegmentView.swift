@@ -268,9 +268,9 @@ class SNSegmentView: UIScrollView {
         } else {
             
             if let title = controller.title {
-                segmentTab = SNSegmentTab.init(title: title, image: controller.titleImage())
+                segmentTab = SNSegmentTab.init(title: title)
             } else {
-                segmentTab = SNSegmentTab.init(title: "", image: controller.titleImage())
+                segmentTab = SNSegmentTab.init(title: "")
             }
             
             segmentTab?.backgroundColor = segmentBackgroundColor
@@ -359,9 +359,4 @@ class SNSegmentView: UIScrollView {
             layoutIfNeeded()
         }
     }
-}
-
-public extension UIViewController {
-    
-   public func titleImage() -> UIImage? { return nil}
 }
