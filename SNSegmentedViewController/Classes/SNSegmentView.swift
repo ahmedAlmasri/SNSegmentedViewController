@@ -292,6 +292,7 @@ class SNSegmentView: UIScrollView {
             var width: CGFloat = 0.0
             if let view = controller.navigationItem.titleView {
                 width = view.bounds.width
+                segmentViewOffsetWidth = 0.0
             } else if let title = controller.title {
                 
                 width = title.widthWithConstrainedWidth(.greatestFiniteMagnitude,
