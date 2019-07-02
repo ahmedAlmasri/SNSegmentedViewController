@@ -1,5 +1,5 @@
 PODS:
-  - SNSegmentedViewController (0.1.0)
+  - SNSegmentedViewController (0.1.6t)
 
 DEPENDENCIES:
   - SNSegmentedViewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SNSegmentedViewController: e7191d352967c5e2f2e39a8f8f0faeeaca0c7143
+  SNSegmentedViewController: 0b66ec8b8efe668156cadc41148a160e5bfbc219
 
 PODFILE CHECKSUM: 189bcbe40f637b923520255d8c42b2a8a4f05b82
 

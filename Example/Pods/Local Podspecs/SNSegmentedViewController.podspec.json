@@ -1,19 +1,20 @@
 {
   "name": "SNSegmentedViewController",
-  "version": "0.1.0",
-  "summary": "A short description of SNSegmentedViewController.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.6t",
+  "summary": "Segment in view controller with header view",
+  "swift_version": "4.2",
+  "description": "Segment in view controller with header view for ios",
   "homepage": "https://github.com/ahmedAlmasri/SNSegmentedViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ahmedAlmasri": "a.masri@genie-soft.com"
+    "ahmedAlmasri": "ahmed.almasri@ymail.com"
   },
   "source": {
     "git": "https://github.com/ahmedAlmasri/SNSegmentedViewController.git",
-    "tag": "0.1.0"
+    "tag": "0.1.6t"
   },
   "platforms": {
     "ios": "8.0"

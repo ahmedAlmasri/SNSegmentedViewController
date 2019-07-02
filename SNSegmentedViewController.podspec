@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNSegmentedViewController'
-  s.version          = '0.1.6'
+  s.version          = '0.1.6t'
   s.summary          = 'Segment in view controller with header view '
   s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.

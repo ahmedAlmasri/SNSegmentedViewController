@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		28F612CE7F56B572E5D17E6D /* Pods_SNSegmentedViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470F5A1541FCBA0B5C1E09CC /* Pods_SNSegmentedViewController_Tests.framework */; };
+		40F7EC3C22CB4DEE00B3A6AC /* TabOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F7EC3B22CB4DEE00B3A6AC /* TabOneController.swift */; };
+		40F7EC3E22CB4EE600B3A6AC /* TabTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F7EC3D22CB4EE600B3A6AC /* TabTwoController.swift */; };
 		5C466EC173F978FB917651ED /* Pods_SNSegmentedViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C146A07C1B0E4F71FD742C /* Pods_SNSegmentedViewController_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -31,6 +33,8 @@
 		136C34468E013EF845DA98D4 /* Pods-SNSegmentedViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSegmentedViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSegmentedViewController_Example/Pods-SNSegmentedViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2585573E9F1BD5CF4B8A8C19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3FCD62B61D310F4BD1A92CB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40F7EC3B22CB4DEE00B3A6AC /* TabOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneController.swift; sourceTree = "<group>"; };
+		40F7EC3D22CB4EE600B3A6AC /* TabTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoController.swift; sourceTree = "<group>"; };
 		470F5A1541FCBA0B5C1E09CC /* Pods_SNSegmentedViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSegmentedViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SNSegmentedViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSegmentedViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				40F7EC3B22CB4DEE00B3A6AC /* TabOneController.swift */,
+				40F7EC3D22CB4EE600B3A6AC /* TabTwoController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,6 +218,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z3L5T8R576;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -226,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +344,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				40F7EC3E22CB4EE600B3A6AC /* TabTwoController.swift in Sources */,
+				40F7EC3C22CB4DEE00B3A6AC /* TabOneController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +493,7 @@
 			baseConfigurationReference = 136C34468E013EF845DA98D4 /* Pods-SNSegmentedViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3L5T8R576;
 				INFOPLIST_FILE = SNSegmentedViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +509,7 @@
 			baseConfigurationReference = EC3517BAF877FAC4B8E7F06D /* Pods-SNSegmentedViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3L5T8R576;
 				INFOPLIST_FILE = SNSegmentedViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
